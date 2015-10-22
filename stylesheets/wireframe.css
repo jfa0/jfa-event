@@ -1,0 +1,127 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+body,div,li,ul,p,a{
+	padding:0;
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+	list-style:none;
+	font-size: 16px;
+}
+
+.sidebar{
+	width:210px;
+	height: 100%;
+	background: #aaa;
+	position: fixed;
+	left:0;
+	padding: 20px;
+}
+.sidebar li{
+	padding: 10px;
+	border-bottom: solid 1px #ccc;
+}
+.sidebar li:after{
+	content: " > ";
+	position: absolute;
+	right: 30px;	
+}
+.button-sidebar{
+	position: absolute;
+	top:0;
+	right:0;
+}
+.logo-sidebar{
+	padding:40px;
+	background:#B3393B;
+}
+.list-sidebar{
+	padding: 20px 0px;
+}
+.music-player{
+	width:100%;
+	text-align: center;
+	margin: 10px 0px;
+	background: #fff;
+	padding: 20px 0px;
+}
+.copyright {
+	text-align: center;
+	bottom:0;
+}
+.wrapinner{
+	text-align: center;
+	margin-left:250px;
+	font-size: 22px;
+	height: auto;
+	overflow: hidden;
+}
+#header{
+	height: 70px;
+	background: #DF7576;
+	color: #fff;	
+}
+#gnav{
+	padding: 5px;
+	height: auto;
+	overflow:hidden;
+}
+.gnav{
+	float: left;
+}
+.gnav li{
+	font-size: 22px;
+	display: inline-block;
+	padding: 0px 20px;
+}
+.gnav li:hover{
+	border-bottom: solid 2px #B70003;
+	font-weight:bold;
+}
+.search{
+	float: right;
+	width: 200px;
+	height:50px;
+	background: #8CADE0;
+	padding: 5px 10px;
+}
+
+.mainarea{
+	height: auto;
+	overflow: hidden;
+}
+.content{
+	padding: 10px;
+	height: auto;
+	overflow: hidden;
+}
+.slider{
+	width: 100%;
+	padding: 150px 0px;
+	background: #84DCA1;	
+}
+.content-text, .content-picture{
+	text-align: center;
+	padding: 50px 0px;
+}
+.content-text{
+	background: #E096E4;
+}
+.content-picture{
+	background: #E496BC;
+}
+.schedule-content{
+	padding: 80px 20px;
+	background: #C4BEBE;	
+}
+.venue-content{
+	padding: 80px 20px;
+	background: #E7B4B4;	
+}
+.guestar-content{
+	padding: 80px 20px;
+	background: #8B9AC3;	
+}
+.register-content{
+	padding: 80px 20px;
+	background: #D5E4B2;	
+}
+	
